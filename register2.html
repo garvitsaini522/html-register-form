@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+       .body{
+        background-color: rgb(242, 242, 242);
+       }
+       .container{
+            text-align: center;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        #rg{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(80, 77, 77);
+            font-size: 30px;
+        }
+        #student{
+            margin:auto; 
+              border: 0.5px solid gray;
+              border-radius: 2px;
+              padding: 10px;
+              margin-right: 30px;
+              
+        }
+        .mac{
+         margin:12px;
+               }
+        .char{
+              margin:auto; 
+              border: 0.5px solid gray;
+              border-radius: 2px;
+              padding: 10px;
+              
+              margin-right: 250px;
+
+              
+        }
+        #color{
+            color: rgb(147, 212, 48);
+        }
+        #para{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(123, 121, 121);
+        }
+        #check{
+            margin: left 50px;
+            
+        }
+        #Terms{
+            color:  rgb(123, 121, 121) ;
+        }
+        #button{
+            background-color: rgb(126, 192, 27);
+            border-radius: 3px;
+            color: white;
+            padding: 10px;
+            border-color: rgb(126, 192, 27);
+    
+        }
+        #change{
+            margin-right:200px ;
+        }
+    </style>
+</head>
+<body class="body">
+    <form action="get">
+
+        <div class="container">
+            <p id="rg">Register</p>
+            <h4 id="para">create your account. it's free and onlytakes a minutes</h4>
+            <div id="call">
+                <input type="text" name="myname" value="First Name" id="student">
+                <input type="text" name="myname" value="Last Name" id="student">
+        </div>
+        <div class="mac">
+            <input type="email" name="email" value="Email" class="char">
+        </div>
+        <div class="mac">
+            <input type="text" name="mypassword" value="Password" class="char">
+        </div>
+        <div class="mac">
+            <input type="text" name="mypassword" value="Confirm Password" class="char" >
+        </div>
+        <div id="change">
+            <input type="checkbox" name="checkbox" value="check" required id="check"
+            id="Terms">I accept the <span id="color">Terms of use</span> & <span id="color"> Policy</span></p>
+        </div> 
+        <input type="button" value="                                            Register Now                                             "  id="button">
+        
+    </div>
+</form>
+</body>
+</html>
